@@ -3,17 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Enemies
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Wall
+  - Player
+  - Enemies
   - 
   - 
   - 
@@ -40,4 +43,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 600610553
+    locked: 0
+  - name: Ambient
+    uniqueID: 3442637641
+    locked: 0
+  - name: Foreground
+    uniqueID: 3086432259
+    locked: 0
+  - name: Player
+    uniqueID: 1749770045
+    locked: 0
+  - name: Ground
+    uniqueID: 1628712545
     locked: 0
